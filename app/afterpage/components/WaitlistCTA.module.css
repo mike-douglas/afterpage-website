@@ -1,0 +1,46 @@
+.section {
+  padding: var(--space-3xl) 0;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--neutral-black);
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--neutral-gray);
+  line-height: 1.6;
+}
+
+.privacyNote {
+  font-size: 0.875rem;
+  color: var(--neutral-gray-light);
+}
+
+.link {
+  color: var(--neutral-gray);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.link:hover {
+  color: var(--neutral-black);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}

@@ -3,22 +3,22 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import fs from 'fs';
 import path from 'path';
-import Link from 'next/link';
 
-import Header from '../components/Header';
+import Navigation from '../afterpage/components/Navigation';
+import Footer from '../afterpage/components/Footer';
 import styles from './page.module.css';
 
 const PrivacyPage = () => {
-  const mdPath = path.join(process.cwd(), 'src', 'content', 'privacy.md');
+  const mdPath = path.join(process.cwd(), 'content', 'privacy.md');
   const mdContent = fs.readFileSync(mdPath, 'utf-8');
 
   return (
     <div className={styles.container}>
-      <Header />
+      <Navigation />
       <div className={styles.content}>
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{mdContent}</ReactMarkdown>
       </div>
-      <Link href="/">Go back home</Link>
+      <Footer />
     </div>
   );
 };

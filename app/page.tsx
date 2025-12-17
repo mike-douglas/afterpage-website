@@ -1,11 +1,21 @@
-import styles from "./page.module.css";
-
-import HeroSection from "./components/HeroSection";
+import Navigation from './afterpage/components/Navigation';
+import Hero from './afterpage/components/Hero';
+import Features from './afterpage/components/Features';
+import HowItWorks from './afterpage/components/HowItWorks';
+import WhyAfterpage from './afterpage/components/WhyAfterpage';
+import WaitlistCTA from './afterpage/components/WaitlistCTA';
+import Footer from './afterpage/components/Footer';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <HeroSection />
+    <main>
+      <Navigation />
+      <Hero />
+      <Features />
+      <HowItWorks />
+      <WhyAfterpage />
+      <WaitlistCTA />
+      <Footer />
     </main>
   );
 }

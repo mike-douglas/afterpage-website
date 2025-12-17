@@ -1,0 +1,59 @@
+.footer {
+  padding: var(--space-2xl) 0;
+  border-top: 1px solid var(--neutral-border);
+  margin-top: var(--space-2xl);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.brandIcon {
+  border-radius: 5px;
+}
+
+.brandName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--neutral-black);
+}
+
+.links {
+  display: flex;
+  gap: var(--space-lg);
+}
+
+.link {
+  font-size: 0.875rem;
+  color: var(--neutral-gray);
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--neutral-black);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 0.875rem;
+  color: var(--neutral-gray-light);
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+}

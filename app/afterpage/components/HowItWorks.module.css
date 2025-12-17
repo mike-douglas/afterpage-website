@@ -1,0 +1,145 @@
+.section {
+  padding: var(--space-3xl) 0;
+  background-color: var(--neutral-background);
+  margin: 0 calc(-50vw + 50%);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
+}
+
+.header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto var(--space-2xl);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--neutral-black);
+  margin-bottom: var(--space-md);
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--neutral-gray);
+  line-height: 1.6;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xl);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.step:nth-child(even) {
+  direction: rtl;
+}
+
+.step:nth-child(even) > * {
+  direction: ltr;
+}
+
+.stepNumber {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--brand-coral);
+  background-color: var(--brand-coral-light);
+  border-radius: 50%;
+}
+
+.stepContent {
+  max-width: 400px;
+}
+
+.stepTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--neutral-black);
+  margin-bottom: var(--space-sm);
+}
+
+.stepDescription {
+  font-size: 1rem;
+  color: var(--neutral-gray);
+  line-height: 1.6;
+}
+
+.screenshotContainer {
+  justify-self: center;
+}
+
+.screenshot {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.screenshotPlaceholder {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 9 / 12;
+  background: linear-gradient(135deg, var(--neutral-white) 0%, var(--brand-teal-light) 100%);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--neutral-border);
+  justify-self: center;
+}
+
+.placeholderText {
+  font-size: 0.875rem;
+  color: var(--neutral-gray-light);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .step,
+  .step:nth-child(even) {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+    text-align: center;
+    direction: ltr;
+  }
+
+  .stepNumber {
+    margin: 0 auto;
+  }
+
+  .stepContent {
+    max-width: none;
+  }
+
+  .screenshotContainer {
+    margin: 0 auto;
+  }
+
+  .screenshot {
+    max-width: 200px;
+  }
+
+  .screenshotPlaceholder {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}

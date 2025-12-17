@@ -1,23 +1,60 @@
-.content h1, .content h2, .content h3, .content h4, .content h5 {
-  margin: 1.0rem 0 1.0rem 0;
-}
-
-.content p, .content li {
-  line-height: 1.5rem;
-}
-
-.content p {
-  margin: 1.0rem 0 1.0rem 0;
-}
-
-.content ul {
-  margin: 0 0 0 2.0rem;
+.container {
+  width: 100%;
 }
 
 .content {
   max-width: 50rem;
+  padding: var(--space-2xl) 0;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--neutral-black);
+  margin-bottom: var(--space-xl);
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--neutral-black);
+  margin: var(--space-xl) 0 var(--space-md) 0;
+}
+
+.content h3, .content h4, .content h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--neutral-black);
+  margin: var(--space-lg) 0 var(--space-sm) 0;
+}
+
+.content p {
+  color: var(--neutral-gray);
+  line-height: 1.7;
+  margin: var(--space-md) 0;
+}
+
+.content ul, .content ol {
+  margin: var(--space-md) 0 var(--space-md) var(--space-xl);
+  color: var(--neutral-gray);
+}
+
+.content li {
+  line-height: 1.7;
+  margin-bottom: var(--space-sm);
 }
 
 .content a {
+  color: var(--brand-coral);
   text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.content a:hover {
+  color: var(--brand-coral-hover);
+}
+
+.content strong {
+  color: var(--neutral-black);
+  font-weight: 600;
 }
