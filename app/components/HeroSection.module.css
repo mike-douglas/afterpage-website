@@ -1,0 +1,32 @@
+.heroContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.heroSubtitle {
+  font-size: 4.0rem;
+  font-weight: 800;
+  line-height: 1.125;
+  opacity: 0.8;
+}
+
+.heroImage {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .heroContainer {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .heroSubtitle {
+    font-size: 2.0rem;
+  }
+
+  .heroImage {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}

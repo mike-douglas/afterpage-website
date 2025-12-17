@@ -1,0 +1,27 @@
+.title {
+  font-size: 4.0rem;
+  font-weight: 800;
+  line-height: 1.125;
+  color: #D57A32;
+}
+
+.title, .logo {
+  margin-bottom: 1.3rem;
+}
+
+.logo {
+  position: relative;
+  width: 128px;
+  height: 128px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+}

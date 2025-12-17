@@ -1,0 +1,16 @@
+.meshGradient {
+  background: url('/images/light-mesh-gradient.png') top left no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  .meshGradient {
+    background: url('/images/dark-mesh-gradient.png') top left no-repeat;
+  }
+} */

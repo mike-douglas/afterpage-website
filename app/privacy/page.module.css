@@ -1,0 +1,23 @@
+.content h1, .content h2, .content h3, .content h4, .content h5 {
+  margin: 1.0rem 0 1.0rem 0;
+}
+
+.content p, .content li {
+  line-height: 1.5rem;
+}
+
+.content p {
+  margin: 1.0rem 0 1.0rem 0;
+}
+
+.content ul {
+  margin: 0 0 0 2.0rem;
+}
+
+.content {
+  max-width: 50rem;
+}
+
+.content a {
+  text-decoration: underline;
+}

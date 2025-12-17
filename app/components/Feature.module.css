@@ -1,0 +1,14 @@
+.container {
+  margin: 0 0 1.5rem 0;
+  max-width: 30rem;
+  line-height: 1.75rem;
+}
+
+.title {
+  margin-top: 0;
+  color: #995824;
+}
+
+.description {
+  opacity: 0.7;
+}

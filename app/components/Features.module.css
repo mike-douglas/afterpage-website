@@ -1,0 +1,13 @@
+.container {
+  margin-top: 3.0rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  opacity: 0.7;
+}
+
+.featureContainer {
+  margin-top: 2.0rem;
+}

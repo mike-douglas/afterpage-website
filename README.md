@@ -1,2 +1,2 @@
 # afterpage-website
-Website for AfterPage
+Website for Afterpage

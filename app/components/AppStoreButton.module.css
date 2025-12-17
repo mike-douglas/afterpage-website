@@ -1,0 +1,20 @@
+.button {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: inline-flex; /* Use inline-flex to not take up full width */
+  align-items: center;
+  padding: 1.0em 1.5em 1.0em 1.25rem;
+  gap: 1.0rem; /* Space between icon and text */
+  border-radius: 9999px; /* This creates the capsule shape */
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 2.0rem;
+}
+
+.icon {
+  margin-top: -0.25rem;
+}
