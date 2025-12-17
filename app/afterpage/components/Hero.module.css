@@ -23,7 +23,7 @@
 .content {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: var(--space-3xl);
+  gap: var(--space-xl);
   align-items: center;
   width: 100%;
   max-width: 70rem;
@@ -36,20 +36,20 @@
 }
 
 .headline {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.05;
   color: var(--neutral-black);
   letter-spacing: -0.02em;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .subheadline {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: var(--neutral-gray);
   margin-bottom: var(--space-xl);
-  max-width: 500px;
+  max-width: 540px;
 }
 
 .features {
@@ -148,11 +148,11 @@
   }
 
   .headline {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .subheadline {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
   }
 
   .feature {
