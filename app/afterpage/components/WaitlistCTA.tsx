@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './WaitlistCTA.module.css';
 import WaitlistForm from './WaitlistForm';
 
@@ -11,7 +12,7 @@ export default function WaitlistCTA() {
         </p>
         <WaitlistForm />
         <p className={styles.privacyNote}>
-          Early access notification only. No spam. View our <a href="/privacy" className={styles.link}>Privacy Policy</a>.
+          Early access notification only. No spam. View our <Link href="/privacy" className={styles.link}>Privacy Policy</Link>.
         </p>
       </div>
     </section>
