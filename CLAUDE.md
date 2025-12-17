@@ -14,7 +14,7 @@ This project is the website and landing page for Afterpage, an iOS app for docum
 
 ## The Problem
 
-People accumulate important documents‒receipts, contracts, tax forms, warranties, bills‒but struggle to keep them organized. Existing scanner apps either:
+People accumulate important documents—receipts, contracts, tax forms, warranties, bills—but struggle to keep them organized. Existing scanner apps either:
 
 - Focus solely on capture, leaving organization as an afterthought
 - Provide basic folders but no real intelligence
@@ -27,7 +27,7 @@ The result? Unorganized inboxes of documents where nothing can be found when nee
 
 ## The Solution
 
-Afterpage is an **organization-first** iOS document scanner that transforms chaos into clarity. Unlike traditional scanner apps that stop at capture, Afterpage emphasizes intelligent organization and instant search‒using on-device AI that learns your patterns to make document management effortless.
+Afterpage is an **organization-first** iOS document scanner that transforms chaos into clarity. Unlike traditional scanner apps that stop at capture, Afterpage emphasizes intelligent organization and instant search—using on-device AI that learns your patterns to make document management effortless.
 
 **Core Philosophy:** Smart organization that gets better with every document you add.
 
@@ -44,7 +44,7 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 
 ### **Organize**
 
-- **Inbox workflow** for quick document triage
+- **Inbox workflow** for quick document processing
 - User-created tags, document types, and correspondents
 - Smart Organization (Plus) that learns your patterns
 - On-device AI classification (no cloud required)
@@ -52,7 +52,7 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 ### **Search & Find**
 
 - Full-text OCR search (powered by Apple Vision)
-- Filter by tag, type, correspondent, or date
+- Filter by tag, type, or correspondent
 - Editable OCR text for corrections
 - Searchable PDF export
 
@@ -88,17 +88,17 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 
 ## What Makes Afterpage Different
 
-| Afterpage | Traditional Scanner Apps |
-|-----------|-------------------------|
-| **Organization-first**: Inbox triage workflow with intelligent learning | Capture-focused with basic folders |
-| **Gets smarter over time**: AI learns your patterns as you organize | Static organization or no intelligence |
-| **Instant search**: Full-text OCR with powerful filters | Limited or no search capabilities |
-| **Warm, human brand**: Coral & teal palette | Generic blue/gray corporate aesthetics |
-| **Accessible pricing**: $2.99/month | $7-10/month or expensive one-time |
+|Afterpage|Traditional Scanner Apps|
+|---|---|
+|**Organization-first**: Inbox processing workflow with intelligent learning|Capture-focused with basic folders|
+|**Gets smarter over time**: AI learns your patterns as you organize|Static organization or no intelligence|
+|**Instant search**: Full-text OCR with powerful filters|Limited or no search capabilities|
+|**Warm, human brand**: Coral & teal palette|Generic blue/gray corporate aesthetics|
+|**Accessible pricing**: $2.99/month|$7-10/month or expensive one-time|
 
 **Brand Identity:** "Clarity": Distinctive coral (#FF6B6B) and teal (#14B8A6) colors that position Afterpage as uniquely warm and approachable in a category dominated by cold, technical competitors.
 
-**Trust:** Documents are stored in your iCloud Drive and processed on your device‒no third-party servers, no new accounts to create, just your existing Apple ecosystem.
+**Trust:** Documents are stored in your iCloud Drive and processed on your device—no third-party servers, no new accounts to create, just your existing Apple ecosystem.
 
 ---
 
@@ -106,17 +106,17 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 
 **Freemium Subscription Model**
 
-| Free                  | Plus ($2.99/mo or $24.99/yr) |
-| --------------------- | ---------------------------- |
-| 20 archived documents | ✅ Unlimited documents        |
-| Camera scanning       | ✅ Camera scanning            |
-| On-device OCR         | ✅ On-device OCR              |
-| Full-text search      | ✅ Full-text search           |
-| Manual organization   | ✅ Manual organization        |
-| iCloud sync           | ✅ iCloud sync                |
-| ‒                     | ✅ Smart suggestions          |
-| ‒                     | ✅ Auto-classification        |
-| ‒                     | ✅ Batch operations           |
+|Free|Plus ($2.99/mo or $24.99/yr)|
+|---|---|
+|20 archived documents|✅ Unlimited documents|
+|Camera scanning|✅ Camera scanning|
+|On-device OCR|✅ On-device OCR|
+|Full-text search|✅ Full-text search|
+|Manual organization|✅ Manual organization|
+|iCloud sync|✅ iCloud sync|
+|–|✅ Smart suggestions|
+|–|✅ Auto-classification|
+|–|✅ Batch operations|
 
 **Conversion Strategy:** "Inbox Freeze": Free users can continue scanning but can't archive beyond 20 documents. This creates natural upgrade pressure at the moment users commit to using Afterpage as their document vault.
 
@@ -150,7 +150,7 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 
 - ✅ Camera capture and import
 - ✅ On-device OCR
-- ✅ Inbox triage workflow
+- ✅ Inbox processing workflow
 - ✅ Full-text search
 - ✅ Basic organization (tags, types, correspondents)
 
@@ -199,7 +199,7 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 
 **Short-term:** Prove that intelligent, organization-first document management provides genuine value to individuals who need to find their documents instantly.
 
-**Long-term:** Become the trusted personal document archive for Apple users‒the place where all important documents live, intelligently organized and instantly findable.
+**Long-term:** Become the trusted personal document archive for Apple users—the place where all important documents live, intelligently organized and instantly findable.
 
 **Mission:** Transform unorganized inboxes of documents into easy-to-navigate archives so people can find anything instantly.
 
@@ -220,4 +220,4 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 
 ---
 
-*Afterpage: Turn chaos into clarity. Find anything instantly.*
+_Afterpage: Turn chaos into clarity. Find anything instantly._
