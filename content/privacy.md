@@ -170,7 +170,7 @@ We may update this Privacy Policy to reflect changes in our practices or legal r
 
 If you have questions about this Privacy Policy or how Afterpage handles your data:
 
-- **Email:** [support@afterpage.app]
+- **Email:** <support@afterpage.app>
 
 ## Additional Information for European Users (GDPR)
 
@@ -205,7 +205,7 @@ To exercise these rights, contact us at the email above or use the app's built-i
 
 ### Data Protection Officer
 
-For privacy questions specific to GDPR compliance, contact us at [support@afterpage.app].
+For privacy questions specific to GDPR compliance, contact us at <support@afterpage.app>.
 
 ## Additional Information for California Users (CCPA)
 
@@ -227,7 +227,7 @@ You have the right to:
 
 ### Exercising Your Rights
 
-Contact us at [support@afterpage.app] to exercise your CCPA rights. We do not sell personal information and never have.
+Contact us at <support@afterpage.app> to exercise your CCPA rights. We do not sell personal information and never have.
 
 ---
 
