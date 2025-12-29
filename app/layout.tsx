@@ -3,6 +3,7 @@ import "./globals.css";
 import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://afterpage.app"),
   title: "Afterpage - Document Scanner & Organization",
   description: "Transform document chaos into an organized, searchable archive. On-device AI that learns your patterns. Privacy-first document management for iOS.",
   keywords: ["document scanner", "iOS", "organization", "OCR", "document management", "iCloud"],
@@ -10,11 +11,13 @@ export const metadata: Metadata = {
     title: "Afterpage - Document Scanner & Organization",
     description: "Transform document chaos into an organized, searchable archive using on-device AI that learns your patterns.",
     type: "website",
+    images: ["/images/og-image.png"]
   },
   twitter: {
     card: "summary_large_image",
     title: "Afterpage - Document Scanner & Organization",
     description: "Transform document chaos into an organized, searchable archive using on-device AI that learns your patterns.",
+    images: ["/images/og-image.png"]
   },
 };
 
