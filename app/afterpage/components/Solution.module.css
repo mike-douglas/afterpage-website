@@ -68,6 +68,20 @@
   color: var(--neutral-gray);
 }
 
+.screenshotContainer {
+  margin-top: var(--space-lg);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.screenshot {
+  width: 100%;
+  /* max-width: 280px; */
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
 /* Tablet */
 @media (max-width: 1023px) {
   .grid {

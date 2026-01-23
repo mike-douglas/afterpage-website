@@ -27,6 +27,12 @@
   gap: var(--space-md);
 }
 
+.logotype {
+  width: 400px;
+  height: auto;
+  margin-bottom: var(--space-sm);
+}
+
 .headline {
   font-size: 3.5rem;
   font-weight: 700;
@@ -93,8 +99,6 @@
   width: 100%;
   max-width: 400px;
   height: auto;
-  border-radius: var(--radius-lg);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 
 /* Tablet */
@@ -106,6 +110,10 @@
   .content {
     grid-template-columns: 1fr 1fr;
     gap: var(--space-lg);
+  }
+
+  .logotype {
+    width: 180px;
   }
 
   .headline {
@@ -139,6 +147,10 @@
   .textContent {
     align-items: center;
     order: 2;
+  }
+
+  .logotype {
+    width: 160px;
   }
 
   .headline {

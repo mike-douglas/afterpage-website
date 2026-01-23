@@ -8,6 +8,14 @@ export default function Hero() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.textContent}>
+            <Image
+              src="/images/logotype.png"
+              alt="Afterpage"
+              width={400}
+              height={80}
+              className={styles.logotype}
+              priority
+            />
             <h1 className={styles.headline}>
               Never lose an important document again
             </h1>
@@ -30,7 +38,7 @@ export default function Hero() {
 
           <div className={styles.imageContent}>
             <Image
-              src="/images/hero-screenshot.png"
+              src="/images/screenshots/en-US-1-Website_Hero.png"
               alt="Afterpage app showing organized document library"
               width={400}
               height={800}
