@@ -41,18 +41,22 @@ export default function HowItWorks() {
           From chaos to clarity in three steps
         </h2>
 
-        <div className={styles.grid}>
+        <div className={styles.steps}>
           {steps.map((step, index) => (
-            <div key={index} className={styles.card}>
-              <div className={styles.stepNumber}>{step.number}</div>
-              <h3 className={styles.stepTitle}>{step.title}</h3>
-              <p className={styles.stepDescription}>{step.description}</p>
+            <div key={index} className={styles.step}>
+              <div className={styles.stepContent}>
+                <div className={styles.stepNumber}>{step.number}</div>
+                <div className={styles.stepText}>
+                  <h3 className={styles.stepTitle}>{step.title}</h3>
+                  <p className={styles.stepDescription}>{step.description}</p>
+                </div>
+              </div>
               <div className={styles.screenshotContainer}>
                 <Image
                   src={step.screenshot}
                   alt={step.screenshotAlt}
-                  width={240}
-                  height={480}
+                  width={280}
+                  height={560}
                   className={styles.screenshot}
                 />
               </div>

@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -16,79 +16,101 @@
   margin-bottom: var(--space-2xl);
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-xl);
-}
-
-.card {
-  background: var(--neutral-white);
-  border-radius: var(--radius-sm);
-  padding: var(--space-lg);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+.steps {
   display: flex;
   flex-direction: column;
+  gap: var(--space-2xl);
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
   align-items: center;
-  text-align: center;
+  padding-bottom: var(--space-2xl);
+  border-bottom: 1px solid var(--neutral-border);
+}
+
+.step:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.stepContent {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: flex-start;
 }
 
 .stepNumber {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--neutral-white);
   background: var(--brand-gradient);
   border-radius: 50%;
-  margin-bottom: var(--space-md);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+.stepText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
 .stepTitle {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--neutral-black);
-  margin-bottom: var(--space-sm);
 }
 
 .stepDescription {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.6;
   color: var(--neutral-gray);
 }
 
 .screenshotContainer {
-  margin-top: var(--space-lg);
-  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .screenshot {
   width: 100%;
-  max-width: 240px;
+  max-width: 280px;
   height: auto;
   border-radius: var(--radius-sm);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* Tablet */
 @media (max-width: 1023px) {
-  .grid {
+  .step {
     gap: var(--space-lg);
   }
 
-  .card {
-    padding: var(--space-md);
+  .stepNumber {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    font-size: 1.5rem;
   }
 
   .stepTitle {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+  }
+
+  .stepDescription {
+    font-size: 1rem;
+  }
+
+  .screenshot {
+    max-width: 240px;
   }
 }
 
@@ -102,8 +124,24 @@
     font-size: 1.75rem;
   }
 
-  .grid {
+  .steps {
+    gap: var(--space-xl);
+  }
+
+  .step {
     grid-template-columns: 1fr;
     gap: var(--space-lg);
+  }
+
+  .stepContent {
+    gap: var(--space-md);
+  }
+
+  .screenshotContainer {
+    order: -1;
+  }
+
+  .screenshot {
+    max-width: 200px;
   }
 }
