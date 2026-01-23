@@ -2,19 +2,29 @@
   background-color: #000;
   color: #fff;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   border: none;
   cursor: pointer;
-  display: inline-flex; /* Use inline-flex to not take up full width */
+  display: inline-flex;
   align-items: center;
-  padding: 1.0em 1.5em 1.0em 1.25rem;
-  gap: 1.0rem; /* Space between icon and text */
-  border-radius: 9999px; /* This creates the capsule shape */
-  transition: background-color 0.2s ease-in-out;
-  margin-top: 2.0rem;
+  padding: 0.875em 1.5em;
+  gap: 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--brand-coral);
+  outline-offset: 2px;
 }
 
 .icon {
-  margin-top: -0.25rem;
+  flex-shrink: 0;
 }

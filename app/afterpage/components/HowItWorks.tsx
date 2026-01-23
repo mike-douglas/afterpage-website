@@ -1,66 +1,46 @@
-import Image from 'next/image';
 import styles from './HowItWorks.module.css';
 
 interface Step {
   number: string;
   title: string;
   description: string;
-  image?: string;
 }
 
 const steps: Step[] = [
   {
     number: '1',
     title: 'Scan',
-    description: 'Capture documents with your camera or import from anywhere - Files, Photos, or drag and drop.',
+    description: 'Capture documents with your camera or import from Photos, Files, or Mail. Multi-page support handles everything from single receipts to full contracts.',
   },
   {
     number: '2',
     title: 'Organize',
-    description: 'Add tags, types, and correspondents. Smart Organization learns your patterns and suggests classifications.',
-    image: '/images/step-two-organize.png',
+    description: 'Quick triage in your Inbox. Add tags, set document types, and specify contacts. Smart Organization suggests where documents belong based on your patterns.',
   },
   {
     number: '3',
     title: 'Find',
-    description: 'Search the text inside any document instantly. Filter by tag, type, date, or correspondent.',
+    description: 'Search any document by the text inside or filter by tags, types, and contacts. Export searchable PDFs when you need to share.',
   },
 ];
 
 export default function HowItWorks() {
   return (
     <section id="how-it-works" className={styles.section}>
-      <div className={styles.header}>
-        <h2 className={styles.title}>How it works</h2>
-        <p className={styles.subtitle}>
-          Three simple steps to transform your document chaos into an organized archive.
-        </p>
-      </div>
-      <div className={styles.steps}>
-        {steps.map((step, index) => (
-          <div key={index} className={styles.step}>
-            <div className={styles.stepNumber}>{step.number}</div>
-            <div className={styles.stepContent}>
+      <div className={styles.container}>
+        <h2 className={styles.headline}>
+          From chaos to clarity in three steps
+        </h2>
+
+        <div className={styles.grid}>
+          {steps.map((step, index) => (
+            <div key={index} className={styles.card}>
+              <div className={styles.stepNumber}>{step.number}</div>
               <h3 className={styles.stepTitle}>{step.title}</h3>
               <p className={styles.stepDescription}>{step.description}</p>
             </div>
-            {step.image ? (
-              <div className={styles.screenshotContainer}>
-                <Image
-                  src={step.image}
-                  alt={`${step.title} step screenshot`}
-                  width={300}
-                  height={400}
-                  className={styles.screenshot}
-                />
-              </div>
-            ) : (
-              <div className={styles.screenshotPlaceholder}>
-                <span className={styles.placeholderText}>Screenshot</span>
-              </div>
-            )}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

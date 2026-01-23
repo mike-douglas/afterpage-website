@@ -1,14 +1,20 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 70rem;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 0 var(--space-xl);
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 0 var(--space-md);
-  }
+.skipLink {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--neutral-black);
+  color: var(--neutral-white);
+  padding: var(--space-sm) var(--space-md);
+  z-index: 100;
+  transition: top 0.2s ease;
+}
+
+.skipLink:focus {
+  top: 0;
 }

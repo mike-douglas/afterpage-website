@@ -8,16 +8,25 @@
   --brand-coral-light: #FFE3E3;
   --brand-coral-dark: #991B1B;
 
+  --brand-ocean-blue: #3B82F6;
+
   --brand-teal: #14B8A6;
+  --brand-teal-hover: #0D9488;
   --brand-teal-light: #CCFBF1;
+  --brand-teal-subtle: #F0FDFA;
   --brand-teal-dark: #134E4A;
+
+  /* Signature Gradient */
+  --brand-gradient: linear-gradient(135deg, #FF6B6B 0%, #3B82F6 50%, #14B8A6 100%);
 
   /* Neutral Colors */
   --neutral-white: #FFFFFF;
   --neutral-off-white: #FAFAF9;
+  --neutral-950: #0C0A09;
   --neutral-black: #1C1917;
   --neutral-gray: #57534E;
   --neutral-gray-light: #A8A29E;
+  --neutral-300: #D6D3D1;
   --neutral-border: #E7E5E4;
   --neutral-background: #F5F5F4;
 
