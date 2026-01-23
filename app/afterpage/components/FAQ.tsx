@@ -23,7 +23,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Does it work on iPad?',
-    answer: 'Yes! Afterpage syncs across iPhone, iPad, and Mac through iCloud.',
+    answer: 'Yes! Afterpage syncs across iPhone and iPad through iCloud.',
   },
   {
     question: 'How does Smart Organization learn?',

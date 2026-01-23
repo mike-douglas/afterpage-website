@@ -32,7 +32,7 @@ export default function Hero() {
             </div>
 
             <p className={styles.subtext}>
-              Free to start • iPhone, iPad, and Mac • No account required
+              Free to start • iPhone and iPad • No account required
             </p>
           </div>
 

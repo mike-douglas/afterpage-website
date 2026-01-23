@@ -15,7 +15,7 @@ export default function FinalCTA() {
         <AppStoreButton />
 
         <p className={styles.subtext}>
-          Free to start • iPhone, iPad, and Mac • No account required
+          Free to start • iPhone and iPad • No account required
         </p>
       </div>
     </section>

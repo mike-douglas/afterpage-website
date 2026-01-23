@@ -5,7 +5,7 @@ import styles from "./layout.module.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://afterpage.app"),
   title: "Afterpage - Smart Document Scanner for iPhone & iPad",
-  description: "Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns. Free to start. Download for iPhone, iPad, and Mac.",
+  description: "Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns. Free to start. Download for iPhone and iPad.",
   keywords: ["document scanner", "PDF scanner", "iOS scanner", "receipt scanner", "smart organization", "OCR", "text recognition"],
   openGraph: {
     title: "Afterpage - Smart Document Scanner for iPhone & iPad",
@@ -48,9 +48,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <a href="#main-content" className={styles.skipLink}>
-          Skip to content
-        </a>
         <div className={styles.container}>
           {children}
         </div>
