@@ -7,7 +7,7 @@ interface AppStoreButtonProps {
 export default function AppStoreButton({ className }: AppStoreButtonProps) {
   return (
     <a
-      href="https://apps.apple.com/app/afterpage"
+      href="https://apps.apple.com/us/app/afterpage-pdf-scanner/id6754659458"
       className={`${styles.button} ${className || ''}`}
       aria-label="Download Afterpage on the App Store"
     >
