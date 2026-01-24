@@ -1,143 +1,147 @@
 .section {
-  padding: var(--space-3xl) 0;
-  background-color: var(--neutral-background);
-  margin: 0 calc(-50vw + 50%);
-  padding-left: calc(50vw - 50%);
-  padding-right: calc(50vw - 50%);
+  background-color: var(--neutral-off-white);
+  padding: var(--space-3xl) var(--space-xl);
 }
 
-.header {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto var(--space-2xl);
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.title {
+.headline {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--neutral-black);
-  margin-bottom: var(--space-md);
-}
-
-.subtitle {
-  font-size: 1.125rem;
-  color: var(--neutral-gray);
-  line-height: 1.6;
+  text-align: center;
+  margin-bottom: var(--space-2xl);
 }
 
 .steps {
   display: flex;
   flex-direction: column;
   gap: var(--space-2xl);
-  max-width: 70rem;
-  margin: 0 auto;
 }
 
 .step {
   display: grid;
-  grid-template-columns: auto 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: var(--space-xl);
   align-items: center;
+  padding-bottom: var(--space-2xl);
+  border-bottom: 1px solid var(--neutral-border);
 }
 
-.step:nth-child(even) {
-  direction: rtl;
+.step:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
-.step:nth-child(even) > * {
-  direction: ltr;
+.stepContent {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: flex-start;
 }
 
 .stepNumber {
   width: 56px;
   height: 56px;
+  min-width: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  color: var(--brand-coral);
-  background-color: var(--brand-coral-light);
+  color: var(--neutral-white);
+  background: var(--brand-gradient);
   border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.stepContent {
-  max-width: 400px;
+.stepText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
 .stepTitle {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--neutral-black);
-  margin-bottom: var(--space-sm);
 }
 
 .stepDescription {
-  font-size: 1rem;
-  color: var(--neutral-gray);
+  font-size: 1.125rem;
   line-height: 1.6;
+  color: var(--neutral-gray);
 }
 
 .screenshotContainer {
-  justify-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 .screenshot {
   width: 100%;
-  max-width: 300px;
+  max-width: 280px;
   height: auto;
+  border-radius: var(--radius-sm);
 }
 
-.screenshotPlaceholder {
-  width: 100%;
-  max-width: 300px;
-  aspect-ratio: 9 / 12;
-  background: linear-gradient(135deg, var(--neutral-white) 0%, var(--brand-teal-light) 100%);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px dashed var(--neutral-border);
-  justify-self: center;
-}
-
-.placeholderText {
-  font-size: 0.875rem;
-  color: var(--neutral-gray-light);
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 2rem;
-  }
-
-  .step,
-  .step:nth-child(even) {
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
-    text-align: center;
-    direction: ltr;
+/* Tablet */
+@media (max-width: 1023px) {
+  .step {
+    gap: var(--space-lg);
   }
 
   .stepNumber {
-    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    font-size: 1.5rem;
+  }
+
+  .stepTitle {
+    font-size: 1.5rem;
+  }
+
+  .stepDescription {
+    font-size: 1rem;
+  }
+
+  .screenshot {
+    max-width: 240px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .section {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .headline {
+    font-size: 1.75rem;
+  }
+
+  .steps {
+    gap: var(--space-xl);
+  }
+
+  .step {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
   }
 
   .stepContent {
-    max-width: none;
+    gap: var(--space-md);
   }
 
   .screenshotContainer {
-    margin: 0 auto;
+    order: -1;
   }
 
   .screenshot {
     max-width: 200px;
-  }
-
-  .screenshotPlaceholder {
-    max-width: 200px;
-    margin: 0 auto;
   }
 }

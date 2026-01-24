@@ -7,24 +7,37 @@ export default function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.content}>
-        <Link href="/" className={styles.brand}>
-          <Image
-            src="/images/icon.png"
-            alt="Afterpage"
-            width={24}
-            height={24}
-            className={styles.brandIcon}
-          />
-          <span className={styles.brandName}>Afterpage</span>
-        </Link>
-        <nav className={styles.links}>
-          <Link href="/privacy" className={styles.link}>Privacy</Link>
-          <a href="mailto:support@afterpage.app" className={styles.link}>Contact</a>
-        </nav>
-      </div>
-      <div className={styles.copyright}>
-        <p>&copy; {currentYear} Afterpage. All rights reserved.</p>
+      <div className={styles.container}>
+        <div className={styles.grid}>
+          <div className={styles.brand}>
+            <Link href="/" className={styles.logoLink}>
+              <Image
+                src="/images/icon.png"
+                alt="Afterpage"
+                width={32}
+                height={32}
+                className={styles.logo}
+              />
+              <span className={styles.brandName}>Afterpage</span>
+            </Link>
+            <p className={styles.tagline}>Transform document chaos into clarity</p>
+          </div>
+
+          <nav className={styles.links}>
+            <Link href="/privacy" className={styles.link}>Privacy Policy</Link>
+            <a href="mailto:support@afterpage.app" className={styles.link}>Support</a>
+          </nav>
+
+          <div className={styles.contact}>
+            <a href="mailto:support@afterpage.app" className={styles.link}>
+              support@afterpage.app
+            </a>
+          </div>
+        </div>
+
+        <div className={styles.bottomBar}>
+          <p>&copy; {currentYear} Afterpage. Made for Apple devices.</p>
+        </div>
       </div>
     </footer>
   );

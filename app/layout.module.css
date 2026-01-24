@@ -1,14 +1,5 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 70rem;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 0 var(--space-xl);
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 0 var(--space-md);
-  }
 }

@@ -4,30 +4,48 @@ import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://afterpage.app"),
-  title: "Afterpage - Document Scanner & Organization",
-  description: "Transform document chaos into an organized, searchable archive. On-device AI that learns your patterns. Privacy-first document management for iOS.",
-  keywords: ["document scanner", "iOS", "organization", "OCR", "document management", "iCloud"],
+  title: "Afterpage - Smart Document Scanner for iPhone & iPad",
+  description: "Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns. Free to start. Download for iPhone and iPad.",
+  keywords: ["document scanner", "PDF scanner", "iOS scanner", "receipt scanner", "smart organization", "OCR", "text recognition"],
   openGraph: {
-    title: "Afterpage - Document Scanner & Organization",
-    description: "Transform document chaos into an organized, searchable archive using on-device AI that learns your patterns.",
+    title: "Afterpage - Smart Document Scanner for iPhone & iPad",
+    description: "Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns.",
     type: "website",
-    images: ["/images/og-image.png"]
+    url: "https://afterpage.app",
+    images: ["/images/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Afterpage - Document Scanner & Organization",
-    description: "Transform document chaos into an organized, searchable archive using on-device AI that learns your patterns.",
-    images: ["/images/og-image.png"]
+    title: "Afterpage - Smart Document Scanner",
+    description: "Transform document chaos into clarity. Smart organization for iPhone & iPad.",
+    images: ["/images/og-image.png"],
   },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Afterpage",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "iOS, iPadOS",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#FAFAF9" />
+        <meta name="theme-color" content="#FF6B6B" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body>
         <div className={styles.container}>
