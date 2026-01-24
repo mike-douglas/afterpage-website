@@ -1,24 +1,36 @@
 .footer {
-  padding: var(--space-2xl) 0;
+  background-color: var(--neutral-off-white);
   border-top: 1px solid var(--neutral-border);
-  margin-top: var(--space-2xl);
+  padding: var(--space-2xl) var(--space-xl);
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-lg);
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--space-2xl);
+  align-items: start;
+  margin-bottom: var(--space-xl);
 }
 
 .brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.logoLink {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
 }
 
-.brandIcon {
-  border-radius: 5px;
+.logo {
+  border-radius: 6px;
 }
 
 .brandName {
@@ -27,33 +39,77 @@
   color: var(--neutral-black);
 }
 
+.tagline {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--neutral-gray);
+}
+
 .links {
   display: flex;
-  gap: var(--space-lg);
+  flex-direction: column;
+  gap: var(--space-sm);
+  align-items: center;
 }
 
 .link {
-  font-size: 0.875rem;
-  color: var(--neutral-gray);
+  font-size: 0.9375rem;
+  color: var(--neutral-950);
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .link:hover {
-  color: var(--neutral-black);
+  color: var(--brand-teal-hover);
+  text-decoration: underline;
 }
 
-.copyright {
+.link:focus-visible {
+  outline: 2px solid var(--brand-coral);
+  outline-offset: 2px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-sm);
+}
+
+.bottomBar {
+  border-top: 1px solid var(--neutral-border);
+  padding-top: var(--space-lg);
   text-align: center;
 }
 
-.copyright p {
+.bottomBar p {
   font-size: 0.875rem;
-  color: var(--neutral-gray-light);
+  color: var(--neutral-gray);
 }
 
-@media (max-width: 768px) {
-  .content {
-    flex-direction: column;
+/* Mobile */
+@media (max-width: 767px) {
+  .footer {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
     gap: var(--space-lg);
+    text-align: center;
+  }
+
+  .brand {
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--space-lg);
+  }
+
+  .contact {
+    align-items: center;
   }
 }
