@@ -18,8 +18,7 @@ const freeFeatures = [
 
 const plusFeatures = [
   { text: 'Unlimited documents', isPlus: true },
-  { text: 'Smart Organization', isPlus: true },
-  { text: 'Auto-suggestions', isPlus: true },
+  { text: 'Smart Organization with AI suggestions', isPlus: true },
   { text: 'Batch operations', isPlus: true },
 ];
 
@@ -46,10 +45,11 @@ export default function Pricing() {
           </div>
 
           <div className={styles.cardPlus}>
+            <div className={styles.promoBadge}>Launch Special</div>
             <h3 className={styles.tierName}>Plus</h3>
-            <div className={styles.price}>$2.99<span className={styles.pricePeriod}>/month</span></div>
-            <div className={styles.priceAnnual}>or $24.99/year</div>
-            <div className={styles.savings}>Save 30% with annual</div>
+            <div className={styles.price}>$19.99<span className={styles.pricePeriod}>/year</span></div>
+            <div className={styles.priceOriginal}>$24.99/year</div>
+            <div className={styles.savings}>Limited-time launch price</div>
             <div className={styles.plusDivider}>Everything in Free, plus:</div>
             <ul className={styles.featureList}>
               {plusFeatures.map((feature, index) => (
@@ -65,7 +65,7 @@ export default function Pricing() {
         <div className={styles.ctaContainer}>
           <AppStoreButton />
           <p className={styles.subtext}>
-            Try Afterpage free with 20 documents. Upgrade to Plus when you&apos;re ready for unlimited documents and Smart Organization.
+            Try Afterpage free with 20 documents. Upgrade to Plus at our special launch price for unlimited documents and Smart Organization.
           </p>
         </div>
       </div>
