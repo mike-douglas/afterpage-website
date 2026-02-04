@@ -14,7 +14,7 @@ const faqs: FAQItem[] = [
     answer: 'In your iCloud Drive or locally on your device—your choice during setup. All processing happens on-device using Apple\'s Vision framework.',
   },
   {
-    question: 'What makes Afterpage different from other scanner apps?',
+    question: 'What makes Afterpage different from other document apps?',
     answer: 'Most apps stop at capture. Afterpage focuses on organization-first with Smart Organization that learns your patterns, making every document instantly findable.',
   },
   {

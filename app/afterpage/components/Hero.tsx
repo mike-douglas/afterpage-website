@@ -21,7 +21,7 @@ export default function Hero() {
             </h1>
 
             <p className={styles.subheadline}>
-              Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns.
+              The intelligent document archive that learns your patterns. Organize, search, and find anything instantly.
             </p>
 
             <div className={styles.ctaGroup}>

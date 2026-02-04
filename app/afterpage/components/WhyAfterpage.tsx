@@ -9,7 +9,7 @@ const reasons = [
       </svg>
     ),
     title: 'Organization-first',
-    description: 'Unlike scanner apps that stop at capture, Afterpage emphasizes intelligent organization from day one.',
+    description: 'Unlike document apps that stop at capture, Afterpage emphasizes intelligent organization from day one.',
   },
   {
     icon: (

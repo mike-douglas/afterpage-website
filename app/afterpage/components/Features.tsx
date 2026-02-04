@@ -19,24 +19,24 @@ const features: Feature[] = [
     isSmart: true,
   },
   {
-    icon: TbTextRecognition,
-    title: 'Text Recognition',
-    description: 'On-device OCR powered by Apple Vision. Search any document by the words inside—fast, private, no internet required.',
-  },
-  {
-    icon: TbCloudUpload,
-    title: 'iCloud Sync',
-    description: 'Stores in your iCloud Drive. Syncs across iPhone and iPad. Your documents, your cloud, your control.',
-  },
-  {
     icon: TbInbox,
     title: 'Inbox Workflow',
     description: 'Scan now, organize later. Documents land in your Inbox for quick processing when you have time.',
   },
   {
+    icon: TbTextRecognition,
+    title: 'Text Recognition',
+    description: 'On-device OCR powered by Apple Vision. Search any document by the words inside—fast, private, no internet required.',
+  },
+  {
     icon: TbShare,
     title: 'Searchable Export',
     description: 'Export PDFs with embedded text. Share via AirDrop, email, or save to Files. Your documents stay searchable everywhere.',
+  },
+  {
+    icon: TbCloudUpload,
+    title: 'iCloud Sync',
+    description: 'Stores in your iCloud Drive. Syncs across iPhone and iPad. Your documents, your cloud, your control.',
   },
   {
     icon: TbShieldCheck,

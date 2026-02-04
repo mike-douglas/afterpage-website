@@ -12,10 +12,10 @@ interface Step {
 const steps: Step[] = [
   {
     number: '1',
-    title: 'Scan',
-    description: 'Capture documents with your camera or import from Photos, Files, or Mail. Multi-page support handles everything from single receipts to full contracts.',
+    title: 'Import',
+    description: 'Bring in documents from anywhere—scan with your camera, import from Photos or Files, or share from Mail. Multi-page support handles everything from single receipts to full contracts.',
     screenshot: '/images/screenshots/en-US-7-Step_1_Scan.png',
-    screenshotAlt: 'Afterpage camera scanning a document',
+    screenshotAlt: 'Afterpage importing documents from multiple sources',
   },
   {
     number: '2',
