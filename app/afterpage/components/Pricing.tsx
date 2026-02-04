@@ -8,12 +8,12 @@ const CheckIcon = ({ className }: { className?: string }) => (
 );
 
 const freeFeatures = [
-  '20 archived documents',
-  'Camera scanning & import',
-  'On-device Text Recognition',
   'Full-text search',
   'Manual organization',
+  'On-device Text Recognition',
+  'Camera scanning & import',
   'iCloud sync',
+  '20 archived documents',
 ];
 
 const plusFeatures = [

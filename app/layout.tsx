@@ -4,20 +4,20 @@ import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://afterpage.app"),
-  title: "Afterpage - Smart Document Scanner for iPhone & iPad",
-  description: "Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns. Free to start. Download for iPhone and iPad.",
-  keywords: ["document scanner", "PDF scanner", "iOS scanner", "receipt scanner", "smart organization", "OCR", "text recognition"],
+  title: "Afterpage - Smart Document Organizer for iPhone & iPad",
+  description: "The intelligent document archive that learns your patterns. Organize, search, and find anything instantly. Free to start. Download for iPhone and iPad.",
+  keywords: ["document organizer", "document archive", "smart organization", "OCR", "text recognition", "document management", "iOS"],
   openGraph: {
-    title: "Afterpage - Smart Document Scanner for iPhone & iPad",
-    description: "Transform document chaos into an organized, searchable archive. Smart organization that learns your patterns.",
+    title: "Afterpage - Smart Document Organizer for iPhone & iPad",
+    description: "The intelligent document archive that learns your patterns. Organize, search, and find anything instantly.",
     type: "website",
     url: "https://afterpage.app",
     images: ["/images/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Afterpage - Smart Document Scanner",
-    description: "Transform document chaos into clarity. Smart organization for iPhone & iPad.",
+    title: "Afterpage - Smart Document Organizer",
+    description: "The intelligent document archive that learns your patterns. Smart organization for iPhone & iPad.",
     images: ["/images/og-image.png"],
   },
 };

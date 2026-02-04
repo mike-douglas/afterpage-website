@@ -4,15 +4,8 @@ import styles from './Solution.module.css';
 
 const benefits = [
   {
-    icon: TbScan,
-    title: 'Capture Anywhere',
-    description: 'Scan with your camera, import from Photos, or drag from Mail. However documents enter your life, Afterpage is ready.',
-    screenshot: '/images/screenshots/en-US-2-Solution_Scan.png',
-    screenshotAlt: 'Afterpage camera scanning interface',
-  },
-  {
     icon: TbSparkles,
-    title: 'Organize Instantly',
+    title: 'Organize Intelligently',
     description: 'Smart Organization learns your patterns and suggests where documents belong. The more you use it, the better it gets.',
     badge: 'SMART ORGANIZATION',
     isSmart: true,
@@ -25,6 +18,13 @@ const benefits = [
     description: 'Search the text inside any document in seconds. Filter by tags, document types, or contacts. Every document is instantly findable.',
     screenshot: '/images/screenshots/en-US-4-Solution_Find.png',
     screenshotAlt: 'Afterpage search interface with filters',
+  },
+  {
+    icon: TbScan,
+    title: 'Capture Effortlessly',
+    description: 'Scan with your camera, import from Photos, or drag from Mail. However documents enter your life, Afterpage is ready.',
+    screenshot: '/images/screenshots/en-US-2-Solution_Scan.png',
+    screenshotAlt: 'Afterpage camera scanning interface',
   },
 ];
 
