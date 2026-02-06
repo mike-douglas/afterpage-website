@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import styles from "./layout.module.css";
+import PostHogProvider from "./components/PostHogProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://afterpage.app"),
@@ -48,9 +49,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <div className={styles.container}>
-          {children}
-        </div>
+        <PostHogProvider>
+          <div className={styles.container}>
+            {children}
+          </div>
+        </PostHogProvider>
       </body>
     </html>
   );

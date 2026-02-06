@@ -8,7 +8,9 @@
       "Bash(npm run build:*)",
       "Bash(ls:*)",
       "mcp__claude_ai_Linear__get_issue",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(npm install:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
