@@ -1,4 +1,4 @@
 {
-    "features": ["customBackground", "titleCleanup"],
+    "features": ["customIcons", "customBackground", "titleCleanup"],
     "defaultIconLibrary": "lucide"
 }
