@@ -1,3 +1,4 @@
 {
-    "features": ["testingTools", "customBackground", "titleCleanup"]
+    "features": ["testingTools", "customBackground", "titleCleanup"],
+    "defaultIconLibrary": "lucide"
 }
