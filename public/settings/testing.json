@@ -1,4 +1,4 @@
 {
     "features": ["testingTools", "customIcons", "customBackground", "titleCleanup"],
-    "defaultIconLibrary": "lucide"
+    "defaultIconLibrary": "amicons"
 }
