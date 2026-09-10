@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "writing-and-copy-voice": {
+      "source": "git@github.com:mike-douglas/skill-writing-and-copy-voice.git",
+      "sourceUrl": "git@github.com:mike-douglas/skill-writing-and-copy-voice.git",
+      "sourceType": "git",
+      "skillPath": "writing-and-copy-voice/SKILL.md",
+      "computedHash": "0f625451fa0e2beaddc89780a2e952b0e17e06c34c6853749b63bf2a756d6c98"
+    }
+  }
+}
