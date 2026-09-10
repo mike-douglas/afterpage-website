@@ -1,0 +1,27 @@
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 390 / 844;
+  max-width: 320px;
+  margin-inline: auto;
+  background: var(--bg-subtle);
+  border: 1px dashed var(--fg-faint);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  padding: var(--space-lg);
+}
+
+.wide {
+  aspect-ratio: 16 / 10;
+  max-width: 100%;
+}
+
+.label {
+  color: var(--fg-faint);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

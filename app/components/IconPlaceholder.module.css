@@ -1,0 +1,27 @@
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  background: var(--bg-subtle);
+  border: 1px dashed var(--fg-faint);
+  border-radius: var(--radius-sm);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--fg-faint);
+}
+
+.inverted {
+  background: var(--bg-inverted);
+  border-color: var(--border-inverted);
+}
+
+.inverted .dot {
+  background: var(--fg-inverted-muted);
+}

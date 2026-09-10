@@ -1,0 +1,109 @@
+.section {
+  padding-block: var(--space-2xl);
+  border-top: 1px solid var(--border);
+}
+
+.header {
+  text-align: center;
+  max-width: 46ch;
+  margin-inline: auto;
+}
+
+.title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.subtitle {
+  margin-top: var(--space-sm);
+  font-size: 18px;
+}
+
+.cards {
+  margin-top: var(--space-xl);
+  display: grid;
+  gap: var(--space-md);
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.featured {
+  border-color: var(--fg);
+}
+
+.planName {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--fg-muted);
+}
+
+.price {
+  margin-top: var(--space-xs);
+  font-size: 2rem;
+}
+
+.priceNote {
+  font-size: 14px;
+  color: var(--fg-faint);
+  margin-top: 2px;
+}
+
+.features {
+  margin-top: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.features li {
+  font-size: 15px;
+  color: var(--fg-muted);
+  padding-left: 22px;
+  position: relative;
+}
+
+.features li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--fg-faint);
+}
+
+.tiers {
+  margin-top: var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.tier {
+  flex: 1;
+  min-width: 140px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm) var(--space-md);
+}
+
+.tierName {
+  font-size: 13px;
+  color: var(--fg-faint);
+}
+
+.tierPrice {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+@media (min-width: 760px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
