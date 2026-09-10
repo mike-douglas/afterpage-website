@@ -21,7 +21,8 @@
 }
 
 .title {
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 800;
 }
 
 .subtitle {
@@ -62,6 +63,12 @@
 
 .item:last-child {
   margin-right: auto;
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
 }
 
 @media (min-width: 860px) {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScreenshotPlaceholder from "./ScreenshotPlaceholder";
 import IconPlaceholder from "./IconPlaceholder";
 import styles from "./FeatureSection.module.css";
@@ -5,6 +6,12 @@ import styles from "./FeatureSection.module.css";
 interface Bullet {
   title: string;
   body: string;
+}
+
+interface Media {
+  src: string;
+  width: number;
+  height: number;
 }
 
 interface FeatureSectionProps {
@@ -15,6 +22,7 @@ interface FeatureSectionProps {
   body?: string;
   bullets?: Bullet[];
   mediaLabel: string;
+  media?: Media;
   reverse?: boolean;
   invert?: boolean;
 }
@@ -27,6 +35,7 @@ export default function FeatureSection({
   body,
   bullets,
   mediaLabel,
+  media,
   reverse,
   invert,
 }: FeatureSectionProps) {
@@ -56,7 +65,18 @@ export default function FeatureSection({
           )}
         </div>
         <div>
-          <ScreenshotPlaceholder label={mediaLabel} />
+          {media ? (
+            <Image
+              src={media.src}
+              alt={mediaLabel}
+              width={media.width}
+              height={media.height}
+              className={styles.media}
+              sizes="(min-width: 860px) 50vw, 100vw"
+            />
+          ) : (
+            <ScreenshotPlaceholder label={mediaLabel} />
+          )}
         </div>
       </div>
     </section>

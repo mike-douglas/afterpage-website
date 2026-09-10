@@ -21,6 +21,11 @@ export default function Home() {
           title="Organize your way"
           subtitle="Tags, categories, and contacts keep files easy to find."
           mediaLabel="Organize screen — tags and categories"
+          media={{
+            src: "/images/screenshots/en-US/organize/Organize-@1.0x.png",
+            width: 1512,
+            height: 982,
+          }}
           bullets={[
             {
               title: "Make it yours",
