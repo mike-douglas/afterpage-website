@@ -44,6 +44,11 @@ export default function Home() {
           subtitle="Search from anywhere in the app to get to what you need."
           body="Afterpage reads every page as it comes in, so search matches what's actually printed on a document, not just the title you gave it. Searching &ldquo;Alitalia&rdquo; finds the flight confirmation even if you never typed it into a tag."
           mediaLabel="Find screen — search results"
+          media={{
+            src: "/images/screenshots/en-US/search/Search@1.0x.png",
+            width: 2046,
+            height: 2095,
+          }}
           reverse
           bullets={[
             {
