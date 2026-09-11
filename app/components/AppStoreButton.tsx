@@ -1,3 +1,4 @@
+import copy from "../content/copy.json";
 import styles from "./AppStoreButton.module.css";
 
 interface AppStoreButtonProps {
@@ -9,13 +10,13 @@ interface AppStoreButtonProps {
 export default function AppStoreButton({
   className,
   inverted,
-  label = "Download on the App Store",
+  label = copy.appStoreButton.defaultLabel,
 }: AppStoreButtonProps) {
   return (
     <a
       href="https://apps.apple.com/us/app/afterpage-pdf-scanner/id6754659458"
       className={`${styles.button} ${inverted ? styles.inverted : ""} ${className || ""}`}
-      aria-label="Download Afterpage on the App Store"
+      aria-label={copy.appStoreButton.ariaLabel}
     >
       <svg
         className={styles.icon}

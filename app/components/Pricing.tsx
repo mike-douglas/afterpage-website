@@ -1,52 +1,44 @@
+import copy from "../content/copy.json";
 import styles from "./Pricing.module.css";
 
 export default function Pricing() {
+  const { title, subtitle, free, pro } = copy.pricing;
+
   return (
     <section id="pricing" className={styles.section}>
       <div className="container">
         <div className={styles.header}>
-          <h2 className={styles.title}>Free to start, simple to grow into</h2>
-          <p className={styles.subtitle}>
-            Scanning, OCR, and search are free for good. Pro adds the
-            personalization on top.
-          </p>
+          <h2 className={styles.title}>{title}</h2>
+          <p className={styles.subtitle}>{subtitle}</p>
         </div>
 
         <div className={styles.cards}>
           <div className={styles.card}>
-            <div className={styles.planName}>Free</div>
-            <div className={styles.price}>$0</div>
+            <div className={styles.planName}>{free.planName}</div>
+            <div className={styles.price}>{free.price}</div>
             <ul className={styles.features}>
-              <li>Scan and import as many documents as you need</li>
-              <li>On-device OCR and full-text search</li>
-              <li>Tags, categories, and contacts</li>
-              <li>Sync across your iPhone and iPad with iCloud</li>
+              {free.features.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
             </ul>
           </div>
 
           <div className={`${styles.card} ${styles.featured}`}>
-            <div className={styles.planName}>Pro</div>
-            <div className={styles.price}>$4.99/mo</div>
-            <div className={styles.priceNote}>or $29.99/yr with a 7-day free trial</div>
+            <div className={styles.planName}>{pro.planName}</div>
+            <div className={styles.price}>{pro.price}</div>
+            <div className={styles.priceNote}>{pro.priceNote}</div>
             <ul className={styles.features}>
-              <li>Everything in Free</li>
-              <li>Custom icons for your tags and categories</li>
-              <li>Custom background images, like a photo from the trip behind Disney World 2026</li>
-              <li>New personalization features as they ship</li>
+              {pro.features.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
             </ul>
             <div className={styles.tiers}>
-              <div className={styles.tier}>
-                <div className={styles.tierName}>Monthly</div>
-                <div className={styles.tierPrice}>$4.99</div>
-              </div>
-              <div className={styles.tier}>
-                <div className={styles.tierName}>Yearly</div>
-                <div className={styles.tierPrice}>$29.99</div>
-              </div>
-              <div className={styles.tier}>
-                <div className={styles.tierName}>Lifetime</div>
-                <div className={styles.tierPrice}>$69.99</div>
-              </div>
+              {pro.tiers.map((tier) => (
+                <div className={styles.tier} key={tier.name}>
+                  <div className={styles.tierName}>{tier.name}</div>
+                  <div className={styles.tierPrice}>{tier.price}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

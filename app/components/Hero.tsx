@@ -1,5 +1,6 @@
 import AppStoreButton from "./AppStoreButton";
 import ScreenshotPlaceholder from "./ScreenshotPlaceholder";
+import copy from "../content/copy.json";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
@@ -7,20 +8,15 @@ export default function Hero() {
     <section className={styles.hero}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.copy}>
-          <h1 className={styles.title}>Keep everything important in one place.</h1>
-          <p className={styles.subtitle}>
-            Afterpage is a home for the documents you don&apos;t want to lose,
-            organized the way you think about them.
-          </p>
+          <h1 className={styles.title}>{copy.hero.title}</h1>
+          <p className={styles.subtitle}>{copy.hero.subtitle}</p>
           <div className={styles.actions}>
             <AppStoreButton />
-            <span className={styles.trust}>
-              No account needed. Your documents stay in your own iCloud.
-            </span>
+            <span className={styles.trust}>{copy.hero.trust}</span>
           </div>
         </div>
         <div className={styles.media}>
-          <ScreenshotPlaceholder label="Hero screenshot — Recents view" />
+          <ScreenshotPlaceholder label={copy.hero.mediaLabel} />
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import copy from "../content/copy.json";
 import styles from "./PersonalizeShowcase.module.css";
 
 export default function PersonalizeShowcase() {
@@ -6,15 +7,13 @@ export default function PersonalizeShowcase() {
     <section id="personalize" className={styles.section}>
       <div className="container">
         <div className={styles.header}>
-          <h2 className={styles.title}>Personalize every detail</h2>
-          <p className={styles.subtitle}>
-            Custom icons, backgrounds, and more for your tags and categories.
-          </p>
+          <h2 className={styles.title}>{copy.personalize.title}</h2>
+          <p className={styles.subtitle}>{copy.personalize.subtitle}</p>
         </div>
 
         <Image
           src="/images/screenshots/en-US/personalize/Personalize@0.5x.png"
-          alt="Custom tag and category icons, colors, and backgrounds in Afterpage"
+          alt={copy.personalize.imageAlt}
           width={2424}
           height={1626}
           className={styles.hero}
