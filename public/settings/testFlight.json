@@ -1,4 +1,4 @@
 {
-    "features": [],
+    "features": ["customIcons", "customBackground", "titleCleanup"],
     "defaultIconLibrary": "amicons"
 }
