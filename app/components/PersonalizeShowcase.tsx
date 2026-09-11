@@ -1,4 +1,4 @@
-import Image from "next/image";
+import PersonalizeReveal from "./PersonalizeReveal";
 import copy from "../content/copy.json";
 import styles from "./PersonalizeShowcase.module.css";
 
@@ -11,15 +11,7 @@ export default function PersonalizeShowcase() {
           <p className={styles.subtitle}>{copy.personalize.subtitle}</p>
         </div>
 
-        <Image
-          src="/images/screenshots/en-US/personalize/Personalize@0.5x.png"
-          alt={copy.personalize.imageAlt}
-          width={2424}
-          height={1626}
-          className={styles.hero}
-          sizes="(min-width: 1120px) 1120px, 100vw"
-          priority
-        />
+        <PersonalizeReveal />
       </div>
     </section>
   );
