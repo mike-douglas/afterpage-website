@@ -37,7 +37,13 @@ export default function PressPage() {
               {press.facts.items.map((fact) => (
                 <div className={styles.fact} key={fact.label}>
                   <dt>{fact.label}</dt>
-                  <dd>{fact.value}</dd>
+                  <dd>
+                    {"href" in fact ? (
+                      <a href={fact.href}>{fact.value}</a>
+                    ) : (
+                      fact.value
+                    )}
+                  </dd>
                 </div>
               ))}
             </dl>
@@ -130,7 +136,6 @@ export default function PressPage() {
             <p className={styles.body}>
               <a href={`mailto:${press.contact.email}`}>{press.contact.email}</a>
             </p>
-            <p className={styles.placeholder}>{press.contact.note}</p>
           </section>
         </div>
       </main>

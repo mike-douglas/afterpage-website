@@ -226,7 +226,11 @@
         { "label": "Price", "value": "Free, with Afterpage Pro at $4.99/mo or $29.99/yr" },
         { "label": "Category", "value": "Productivity" },
         { "label": "Website", "value": "afterpage.app" },
-        { "label": "App Store", "value": "Add your listing link once it's live" }
+        {
+          "label": "App Store",
+          "value": "View on the App Store",
+          "href": "https://apps.apple.com/us/app/afterpage-pdf-scanner/id6754659458"
+        }
       ]
     },
     "features": {
@@ -305,8 +309,7 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "support@afterpage.app",
-      "note": "Worth setting up a dedicated press@ address once outreach picks up."
+      "email": "support@afterpage.app"
     }
   }
 }

@@ -44,13 +44,6 @@
   border-radius: var(--radius-md);
 }
 
-.placeholder {
-  margin-top: var(--space-sm);
-  max-width: 65ch;
-  font-style: italic;
-  color: var(--fg-faint);
-}
-
 .founder {
   margin-top: var(--space-md);
   display: flex;
@@ -97,6 +90,11 @@
 .fact dd {
   margin-top: 2px;
   font-size: 16px;
+}
+
+.fact dd a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .features {
