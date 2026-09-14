@@ -14,7 +14,7 @@ export default function AppStoreButton({
 }: AppStoreButtonProps) {
   return (
     <a
-      href="https://apps.apple.com/us/app/afterpage-pdf-scanner/id6754659458"
+      href="https://apps.apple.com/us/app/afterpage-go-paperless/id6754659458"
       className={`${styles.button} ${inverted ? styles.inverted : ""} ${className || ""}`}
       aria-label={copy.appStoreButton.ariaLabel}
     >
