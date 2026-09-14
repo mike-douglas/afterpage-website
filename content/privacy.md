@@ -65,7 +65,7 @@ To help us improve Afterpage and fix issues, we collect anonymous, aggregated an
 
 ### Purchase Information
 
-When you subscribe to Afterpage Plus:
+When you subscribe to Afterpage Pro:
 
 - Your subscription is managed entirely by Apple through the App Store
 - We receive only confirmation that a subscription is active (no payment details, no personal information)

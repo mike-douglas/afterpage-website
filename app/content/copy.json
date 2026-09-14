@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "title": "Afterpage: Keep everything important in one place",
+    "description": "Afterpage is a home for the documents you don't want to lose. Scan, import, or share things in, and find them again instantly. Free to start, no account needed.",
+    "keywords": [
+      "document organizer",
+      "document archive",
+      "OCR",
+      "text recognition",
+      "document management",
+      "iOS"
+    ],
+    "openGraph": {
+      "title": "Afterpage: Keep everything important in one place",
+      "description": "Afterpage is a home for the documents you don't want to lose. Scan, import, or share things in, and find them again instantly."
+    },
+    "twitter": {
+      "title": "Afterpage: Keep everything important in one place",
+      "description": "Afterpage is a home for the documents you don't want to lose. Free to start, no account needed."
+    }
+  },
+
+  "header": {
+    "wordmark": "Afterpage",
+    "nav": [
+      { "label": "Organize", "href": "#organize" },
+      { "label": "Find", "href": "#find" },
+      { "label": "Privacy", "href": "#privacy" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Press", "href": "/press" }
+    ],
+    "downloadLabel": "Download"
+  },
+
+  "appStoreButton": {
+    "defaultLabel": "Download on the App Store",
+    "ariaLabel": "Download Afterpage on the App Store"
+  },
+
+  "hero": {
+    "title": "Keep everything important in one place.",
+    "subtitle": "Afterpage is a home for the documents you don't want to lose, organized the way you think about them.",
+    "trust": "No account needed. Your documents stay in your own iCloud.",
+    "mediaLabel": "Hero screenshot — Recents view"
+  },
+
+  "personalize": {
+    "title": "Personalize your space",
+    "subtitle": "Custom icons, backgrounds, and more for your tags, categories, and contacts.",
+    "imageAlt": "Custom tag and category icons, colors, and backgrounds in Afterpage"
+  },
+
+  "sections": {
+    "organize": {
+      "title": "Organize your way",
+      "subtitle": "Tags, categories, and contacts keep files easy to find.",
+      "mediaLabel": "Organize screen — tags and categories",
+      "bullets": [
+        {
+          "title": "Make it yours",
+          "body": "Give any tag, category, or contact a name, a color, and an icon. Afterpage doesn't get in the way of your system.",
+          "icon": "tag",
+          "color": "purple"
+        },
+        {
+          "title": "Recents to the front",
+          "body": "The tags and categories you use most often always float to the top so an active trip or frequent contact is always right there.",
+          "icon": "clock-3h",
+          "color": "teal"
+        }
+      ]
+    },
+    "find": {
+      "title": "Find your stuff fast",
+      "subtitle": "Search from anywhere in the app to get to what you need.",
+      "body": "Afterpage uses on-device OCR and natural language tools to turn search into your superpower. Find your documents by what's inside them, not just the filename or tags you use (though that works, too).",
+      "mediaLabel": "Find screen — search results",
+      "bullets": [
+        {
+          "title": "Find from anywhere",
+          "body": "Open a tag or category and search just inside it. Every collection has an intelligent search you can use to get to stuff faster.",
+          "icon": "magnifying-glass",
+          "color": "teal"
+        },
+        {
+          "title": "A smarter search",
+          "body": "Search uses advanced algorithms to show you the most relevant results. The most recent relevant documents will always be right up at the top.",
+          "icon": "magnifying-glass-sparkle",
+          "color": "indigo"
+        }
+      ]
+    },
+    "capture": {
+      "title": "Import from (almost) everywhere",
+      "body": "Any PDF or image can be imported into Afterpage, and you can use the document scanner in-app to import documents quickly.",
+      "mediaLabel": "Capture screen — scanning a document",
+      "bullets": [
+        {
+          "title": "Scan",
+          "body": "The built-in scanner handles edge detection, perspective correction, and multi-page capture, then stitches everything into one PDF.",
+          "icon": "camera",
+          "color": "purple"
+        },
+        {
+          "title": "Import",
+          "body": "Pull a PDF or image straight from Files, one at a time or a whole batch at once.",
+          "icon": "file-plus",
+          "color": "teal"
+        },
+        {
+          "title": "Share it in",
+          "body": "Send a file from Mail, Safari, Photos, or anywhere else on iOS with a share sheet, without leaving the app you're in.",
+          "icon": "share-network",
+          "color": "pink"
+        }
+      ]
+    },
+    "siri": {
+      "title": "Plays well with Siri",
+      "subtitle": "Find documents by name, date, tag, or contact, out loud.",
+      "body": "\"Find documents in Afterpage tagged Vet\" or \"…from Maple Grove Veterinary Clinic\" surfaces a visual card with matching thumbnails and an Open in Afterpage button, right from Siri or a Shortcuts automation.",
+      "mediaLabel": "Siri card — document results"
+    },
+    "privacy": {
+      "title": "No accounts or external cloud services ever.",
+      "subtitle": "Afterpage uses Apple's secure and private iCloud service to store and sync your data.",
+      "mediaLabel": "iCloud sync illustration",
+      "bullets": [
+        {
+          "title": "No sign-up needed",
+          "body": "There's no sign-in, no username, no password anywhere in the app.",
+          "icon": "lock-unlocked",
+          "color": "indigo"
+        },
+        {
+          "title": "Your iCloud, not our servers",
+          "body": "Documents sync through your iCloud Drive, and tags and titles sync through a private CloudKit database tied to your account. Afterpage doesn't run a server that stores your documents, and can never access any of your data.",
+          "icon": "cloud",
+          "color": "pink"
+        }
+      ]
+    }
+  },
+
+  "pricing": {
+    "title": "Free to start, simple to grow into",
+    "subtitle": "Scanning, OCR, and search are free for good. Pro adds the personalization on top.",
+    "free": {
+      "planName": "Free",
+      "price": "$0",
+      "features": [
+        "Scan and import as many documents as you need",
+        "On-device OCR and full-text search",
+        "Tags, categories, and contacts",
+        "Sync across your iPhone and iPad with iCloud"
+      ]
+    },
+    "pro": {
+      "planName": "Pro",
+      "price": "$4.99/mo",
+      "priceNote": "or $29.99/yr with a 7-day free trial",
+      "features": [
+        "Everything in Free",
+        "Custom icons for your tags and categories",
+        "Custom background images, like a photo from the trip behind Disney World 2026",
+        "New personalization and smart features as they ship"
+      ],
+      "tiers": [
+        { "name": "Monthly", "price": "$4.99" },
+        { "name": "Yearly", "price": "$29.99" },
+        { "name": "Lifetime", "price": "$69.99" }
+      ]
+    }
+  },
+
+  "faqTitle": "Questions",
+
+  "faq": [
+    {
+      "question": "Do I need to create an account?",
+      "answer": "No. Afterpage identifies you through the iCloud account already signed into your device, the same way Files or Photos does. There's no sign-in screen anywhere in the app."
+    },
+    {
+      "question": "Where do my documents actually live?",
+      "answer": "In your own iCloud Drive. Afterpage doesn't run a server that stores your documents, and there's nothing shared or public about your library."
+    },
+    {
+      "question": "Does Afterpage use AI to read my documents?",
+      "answer": "It uses on-device Apple Intelligence to suggest a cleaner title after a document comes in, turning \"Scan_0043\" into something like \"Comcast Bill – March 2026.\" It doesn't file or tag anything for you, and it only runs on devices where Apple Intelligence is available."
+    },
+    {
+      "question": "What's the difference between Free and Pro?",
+      "answer": "Scanning, OCR, full-text search, and iCloud sync are free without limits. Pro adds custom icons and background images for your tags and categories, plus new personalization features as they roll out."
+    },
+    {
+      "question": "What devices does it work on?",
+      "answer": "iPhone and iPad, kept in sync through your iCloud account."
+    }
+  ],
+
+  "finalCta": {
+    "title": "Get started with Afterpage",
+    "subtitle": "Free to download. No account required."
+  },
+
+  "footer": {
+    "wordmark": "Afterpage",
+    "tagline": "Made for iPhone and iPad.",
+    "privacyLabel": "Privacy Policy",
+    "supportEmail": "support@afterpage.app"
+  },
+
+  "press": {
+    "title": "Press Kit",
+    "subtitle": "Boilerplate, fast facts, and downloadable assets for anyone writing about Afterpage.",
+    "boilerplate": {
+      "title": "Boilerplate",
+      "short": "Afterpage is a document scanner for iPhone and iPad that turns receipts, bills, and contracts into a searchable archive, stored in your own iCloud.",
+      "long": "Most scanner apps stop once a page is captured and leave the organizing to you. Afterpage does the opposite: an inbox workflow, tags and categories you set up yourself, and on-device OCR make every document searchable by what's actually written on it. There's no account to create and no server holding your files. Everything runs on your device and syncs through your own iCloud Drive."
+    },
+    "facts": {
+      "title": "Fast facts",
+      "items": [
+        { "label": "App name", "value": "Afterpage: Doc Scanner & OCR" },
+        { "label": "Platforms", "value": "iPhone and iPad" },
+        { "label": "Price", "value": "Free, with Afterpage Pro at $4.99/mo or $29.99/yr" },
+        { "label": "Category", "value": "Productivity" },
+        { "label": "Website", "value": "afterpage.app" },
+        { "label": "App Store", "value": "Add your listing link once it's live" }
+      ]
+    },
+    "features": {
+      "title": "Key features",
+      "items": [
+        {
+          "title": "Capture",
+          "body": "Scan with the built-in camera, or import PDFs and images from Files, Mail, and Photos.",
+          "icon": "camera",
+          "color": "purple"
+        },
+        {
+          "title": "Organize",
+          "body": "Tags, categories, and contacts you set up yourself, with the ones you use most floating to the top.",
+          "icon": "tag",
+          "color": "teal"
+        },
+        {
+          "title": "Search",
+          "body": "Full-text OCR search finds a document by what's written inside it, not just its filename.",
+          "icon": "magnifying-glass",
+          "color": "indigo"
+        },
+        {
+          "title": "Privacy",
+          "body": "No account, no sign-in, no server. Documents stay in your own iCloud.",
+          "icon": "lock-unlocked",
+          "color": "pink"
+        }
+      ]
+    },
+    "brand": {
+      "title": "Brand",
+      "voice": "Warm and plainspoken. Afterpage talks about documents the way a person would, not the way a corporation would.",
+      "colors": [
+        { "name": "Teal", "hex": "#14B8A6" },
+        { "name": "Purple", "hex": "#8B5CF6" },
+        { "name": "Indigo", "hex": "#6366F1" },
+        { "name": "Pink", "hex": "#EC4899" }
+      ]
+    },
+    "assets": {
+      "title": "Assets",
+      "items": [
+        {
+          "label": "App icon",
+          "src": "/images/AppIcon-iOS-Default-256@1x.png",
+          "file": "afterpage-icon.png",
+          "dark": false
+        },
+        {
+          "label": "Hero screenshot",
+          "src": "/images/screenshots/en-US/hero/Hero@0.5x.webp",
+          "file": "afterpage-hero-screenshot.webp",
+          "dark": false
+        },
+        {
+          "label": "Organize screenshot",
+          "src": "/images/screenshots/en-US/organize/Organize-@1.0x.webp",
+          "file": "afterpage-organize-screenshot.webp",
+          "dark": false
+        },
+        {
+          "label": "Search screenshot",
+          "src": "/images/screenshots/en-US/search/Search-List.webp",
+          "file": "afterpage-search-screenshot.webp",
+          "dark": false
+        }
+      ]
+    },
+    "founder": {
+      "title": "Founder",
+      "name": "Mike Douglas",
+      "photo": "/images/me.jpeg",
+      "body": "Mike Douglas built Afterpage as an indie project after more than a decade building products at Dropbox, InVision, and AWS. He managed Dropbox Paper and later Dropbox Dash, worked on InVision's document organization and permissions systems, and ran an operations team for Amazon EFS. Afterpage grew out of a habit he never broke: building the software he wished existed for keeping his own paperwork in order."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "support@afterpage.app",
+      "note": "Worth setting up a dedicated press@ address once outreach picks up."
+    }
+  }
+}
