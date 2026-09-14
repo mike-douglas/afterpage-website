@@ -215,13 +215,13 @@
     "subtitle": "Boilerplate, fast facts, and downloadable assets for anyone writing about Afterpage.",
     "boilerplate": {
       "title": "Boilerplate",
-      "short": "Afterpage is a document scanner for iPhone and iPad that turns receipts, bills, and contracts into a searchable archive, stored in your own iCloud.",
-      "long": "Most scanner apps stop once a page is captured and leave the organizing to you. Afterpage does the opposite: an inbox workflow, tags and categories you set up yourself, and on-device OCR make every document searchable by what's actually written on it. There's no account to create and no server holding your files. Everything runs on your device and syncs through your own iCloud Drive."
+      "short": "Afterpage is a document organizer for iPhone and iPad that gives receipts, bills, and contracts a real home, and makes them easy to find again, stored in your own iCloud.",
+      "long": "Most scanner apps stop once a page is captured and leave the organizing to you. Afterpage does the opposite: tags, categories, and contacts you set up yourself, plus on-device OCR, make every document searchable by what's actually written on it. Scanning and importing are just how documents get in; the point is being able to find them again fast, months or years later. There's no account to create and no server holding your files. Everything runs on your device and syncs through your own iCloud Drive."
     },
     "facts": {
       "title": "Fast facts",
       "items": [
-        { "label": "App name", "value": "Afterpage: Doc Scanner & OCR" },
+        { "label": "App name", "value": "Afterpage: Go Paperless" },
         { "label": "Platforms", "value": "iPhone and iPad" },
         { "label": "Price", "value": "Free, with Afterpage Pro at $4.99/mo or $29.99/yr" },
         { "label": "Category", "value": "Productivity" },
@@ -237,16 +237,22 @@
       "title": "Key features",
       "items": [
         {
-          "title": "Capture",
-          "body": "Scan with the built-in camera, or import PDFs and images from Files, Mail, and Photos.",
-          "icon": "camera",
-          "color": "purple"
-        },
-        {
           "title": "Organize",
           "body": "Tags, categories, and contacts you set up yourself, with the ones you use most floating to the top.",
           "icon": "tag",
           "color": "teal"
+        },
+        {
+          "title": "Personalize",
+          "body": "Custom icons and background images for tags, categories, and contacts make the space feel like your own (Afterpage Pro).",
+          "icon": "sparkle",
+          "color": "indigo"
+        },
+        {
+          "title": "Capture",
+          "body": "Scan with the built-in camera, or import PDFs and images from Files, Mail, and Photos.",
+          "icon": "camera",
+          "color": "purple"
         },
         {
           "title": "Search",

@@ -1,6 +1,13 @@
 {
   "version": 1,
   "skills": {
+    "afterpage-product": {
+      "source": "git@github.com:mike-douglas/skill-afterpage-product.git",
+      "sourceUrl": "git@github.com:mike-douglas/skill-afterpage-product.git",
+      "sourceType": "git",
+      "skillPath": "afterpage-product/SKILL.md",
+      "computedHash": "1a039ec4e79a4dfa90f915c1e759cb140bb664ada206651c722186f83285963f"
+    },
     "writing-and-copy-voice": {
       "source": "git@github.com:mike-douglas/skill-writing-and-copy-voice.git",
       "sourceUrl": "git@github.com:mike-douglas/skill-writing-and-copy-voice.git",
