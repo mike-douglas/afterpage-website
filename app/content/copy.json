@@ -26,7 +26,8 @@
       { "label": "Organize", "href": "#organize" },
       { "label": "Find", "href": "#find" },
       { "label": "Privacy", "href": "#privacy" },
-      { "label": "Pricing", "href": "#pricing" }
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Press", "href": "/press" }
     ],
     "downloadLabel": "Download"
   },
@@ -57,11 +58,15 @@
       "bullets": [
         {
           "title": "Make it yours",
-          "body": "Give any tag, category, or contact a name, a color, and an icon. Afterpage doesn't get in the way of your system."
+          "body": "Give any tag, category, or contact a name, a color, and an icon. Afterpage doesn't get in the way of your system.",
+          "icon": "tag",
+          "color": "purple"
         },
         {
           "title": "Recents to the front",
-          "body": "The tags and categories you use most often always float to the top so an active trip or frequent contact is always right there."
+          "body": "The tags and categories you use most often always float to the top so an active trip or frequent contact is always right there.",
+          "icon": "clock-3h",
+          "color": "teal"
         }
       ]
     },
@@ -73,11 +78,15 @@
       "bullets": [
         {
           "title": "Find from anywhere",
-          "body": "Open a tag or category and search just inside it. Every collection has an intelligent search you can use to get to stuff faster."
+          "body": "Open a tag or category and search just inside it. Every collection has an intelligent search you can use to get to stuff faster.",
+          "icon": "magnifying-glass",
+          "color": "teal"
         },
         {
           "title": "A smarter search",
-          "body": "Search uses advanced algorithms to show you the most relevant results. The most recent relevant documents will always be right up at the top."
+          "body": "Search uses advanced algorithms to show you the most relevant results. The most recent relevant documents will always be right up at the top.",
+          "icon": "magnifying-glass-sparkle",
+          "color": "indigo"
         }
       ]
     },
@@ -88,15 +97,21 @@
       "bullets": [
         {
           "title": "Scan",
-          "body": "The built-in scanner handles edge detection, perspective correction, and multi-page capture, then stitches everything into one PDF."
+          "body": "The built-in scanner handles edge detection, perspective correction, and multi-page capture, then stitches everything into one PDF.",
+          "icon": "camera",
+          "color": "purple"
         },
         {
           "title": "Import",
-          "body": "Pull a PDF or image straight from Files, one at a time or a whole batch at once."
+          "body": "Pull a PDF or image straight from Files, one at a time or a whole batch at once.",
+          "icon": "file-plus",
+          "color": "teal"
         },
         {
           "title": "Share it in",
-          "body": "Send a file from Mail, Safari, Photos, or anywhere else on iOS with a share sheet, without leaving the app you're in."
+          "body": "Send a file from Mail, Safari, Photos, or anywhere else on iOS with a share sheet, without leaving the app you're in.",
+          "icon": "share-network",
+          "color": "pink"
         }
       ]
     },
@@ -113,11 +128,15 @@
       "bullets": [
         {
           "title": "No sign-up needed",
-          "body": "There's no sign-in, no username, no password anywhere in the app."
+          "body": "There's no sign-in, no username, no password anywhere in the app.",
+          "icon": "lock-unlocked",
+          "color": "indigo"
         },
         {
           "title": "Your iCloud, not our servers",
-          "body": "Documents sync through your iCloud Drive, and tags and titles sync through a private CloudKit database tied to your account. Afterpage doesn't run a server that stores your documents, and can never access any of your data."
+          "body": "Documents sync through your iCloud Drive, and tags and titles sync through a private CloudKit database tied to your account. Afterpage doesn't run a server that stores your documents, and can never access any of your data.",
+          "icon": "cloud",
+          "color": "pink"
         }
       ]
     }
@@ -189,5 +208,105 @@
     "tagline": "Made for iPhone and iPad.",
     "privacyLabel": "Privacy Policy",
     "supportEmail": "support@afterpage.app"
+  },
+
+  "press": {
+    "title": "Press Kit",
+    "subtitle": "Boilerplate, fast facts, and downloadable assets for anyone writing about Afterpage.",
+    "boilerplate": {
+      "title": "Boilerplate",
+      "short": "Afterpage is a document scanner for iPhone and iPad that turns receipts, bills, and contracts into a searchable archive, stored in your own iCloud.",
+      "long": "Most scanner apps stop once a page is captured and leave the organizing to you. Afterpage does the opposite: an inbox workflow, tags and categories you set up yourself, and on-device OCR make every document searchable by what's actually written on it. There's no account to create and no server holding your files. Everything runs on your device and syncs through your own iCloud Drive."
+    },
+    "facts": {
+      "title": "Fast facts",
+      "items": [
+        { "label": "App name", "value": "Afterpage: Doc Scanner & OCR" },
+        { "label": "Platforms", "value": "iPhone and iPad" },
+        { "label": "Price", "value": "Free, with Afterpage Pro at $4.99/mo or $29.99/yr" },
+        { "label": "Category", "value": "Productivity" },
+        { "label": "Website", "value": "afterpage.app" },
+        { "label": "App Store", "value": "Add your listing link once it's live" }
+      ]
+    },
+    "features": {
+      "title": "Key features",
+      "items": [
+        {
+          "title": "Capture",
+          "body": "Scan with the built-in camera, or import PDFs and images from Files, Mail, and Photos.",
+          "icon": "camera",
+          "color": "purple"
+        },
+        {
+          "title": "Organize",
+          "body": "Tags, categories, and contacts you set up yourself, with the ones you use most floating to the top.",
+          "icon": "tag",
+          "color": "teal"
+        },
+        {
+          "title": "Search",
+          "body": "Full-text OCR search finds a document by what's written inside it, not just its filename.",
+          "icon": "magnifying-glass",
+          "color": "indigo"
+        },
+        {
+          "title": "Privacy",
+          "body": "No account, no sign-in, no server. Documents stay in your own iCloud.",
+          "icon": "lock-unlocked",
+          "color": "pink"
+        }
+      ]
+    },
+    "brand": {
+      "title": "Brand",
+      "voice": "Warm and plainspoken. Afterpage talks about documents the way a person would, not the way a corporation would.",
+      "colors": [
+        { "name": "Teal", "hex": "#14B8A6" },
+        { "name": "Purple", "hex": "#8B5CF6" },
+        { "name": "Indigo", "hex": "#6366F1" },
+        { "name": "Pink", "hex": "#EC4899" }
+      ]
+    },
+    "assets": {
+      "title": "Assets",
+      "items": [
+        {
+          "label": "App icon",
+          "src": "/images/AppIcon-iOS-Default-256@1x.png",
+          "file": "afterpage-icon.png",
+          "dark": false
+        },
+        {
+          "label": "Hero screenshot",
+          "src": "/images/screenshots/en-US/hero/Hero@0.5x.webp",
+          "file": "afterpage-hero-screenshot.webp",
+          "dark": false
+        },
+        {
+          "label": "Organize screenshot",
+          "src": "/images/screenshots/en-US/organize/Organize-@1.0x.webp",
+          "file": "afterpage-organize-screenshot.webp",
+          "dark": false
+        },
+        {
+          "label": "Search screenshot",
+          "src": "/images/screenshots/en-US/search/Search-List.webp",
+          "file": "afterpage-search-screenshot.webp",
+          "dark": false
+        }
+      ]
+    },
+    "founder": {
+      "title": "Founder",
+      "name": "Mike Douglas",
+      "photo": "/images/me.jpeg",
+      "body": "Mike Douglas built Afterpage as an indie project after more than a decade building products at Dropbox, InVision, and AWS. He managed Dropbox Paper and later Dropbox Dash, worked on InVision's document organization and permissions systems, and ran an operations team for Amazon EFS. Afterpage grew out of a habit he never broke: building the software he wished existed for keeping his own paperwork in order."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "support@afterpage.app",
+      "note": "Worth setting up a dedicated press@ address once outreach picks up."
+    }
   }
 }

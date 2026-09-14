@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import AppStoreButton from "./AppStoreButton";
 import copy from "../content/copy.json";
@@ -8,7 +9,14 @@ export default function Header() {
     <header className={styles.header}>
       <div className={`container ${styles.bar}`}>
         <Link href="/" className={styles.wordmark}>
-          <span className={styles.mark} aria-hidden="true" />
+          <Image
+            className={styles.mark}
+            src="/images/AppIcon-iOS-Default-256@1x.png"
+            alt=""
+            width={28}
+            height={28}
+            priority
+          />
           {copy.header.wordmark}
         </Link>
         <nav className={styles.nav} aria-label="Primary">

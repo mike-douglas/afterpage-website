@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import copy from "./content/copy.json";
 
 export default function Home() {
-  const { organize, find, capture, siri, privacy } = copy.sections;
+  const { organize, find, capture, privacy } = copy.sections;
 
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home() {
           id="organize"
           {...organize}
           media={{
-            src: "/images/screenshots/en-US/organize/Organize-@1.0x.png",
+            src: "/images/screenshots/en-US/organize/Organize-@1.0x.webp",
             width: 1512,
             height: 982,
           }}
@@ -33,18 +33,25 @@ export default function Home() {
           id="find"
           {...find}
           media={{
-            src: "/images/screenshots/en-US/search/Search@1.0x.png",
+            src: "/images/screenshots/en-US/search/Search@1.0x.webp",
             width: 2046,
             height: 2095,
           }}
           reverse
         />
 
-        <FeatureSection id="capture" {...capture} />
+        <FeatureSection
+          id="capture"
+          {...capture}
+          media={{
+            src: "/images/screenshots/en-US/import/Document-Scanner.webp",
+            width: 735,
+            height: 1500,
+          }}
+          mediaScale={0.5}
+        />
 
-        <FeatureSection {...siri} reverse />
-
-        <FeatureSection id="privacy" {...privacy} reverse invert />
+        <FeatureSection id="privacy" {...privacy} invert />
 
         <Pricing />
         <FAQ />

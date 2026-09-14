@@ -93,10 +93,10 @@ Afterpage is an **organization-first** iOS document scanner that transforms chao
 |**Organization-first**: Inbox processing workflow with intelligent learning|Capture-focused with basic folders|
 |**Gets smarter over time**: AI learns your patterns as you organize|Static organization or no intelligence|
 |**Instant search**: Full-text OCR with powerful filters|Limited or no search capabilities|
-|**Warm, human brand**: Coral & teal palette|Generic blue/gray corporate aesthetics|
+|**Warm, human brand**: Teal, purple, indigo & pink palette|Generic blue/gray corporate aesthetics|
 |**Accessible pricing**: $2.99/month|$7-10/month or expensive one-time|
 
-**Brand Identity:** "Clarity": Distinctive coral (#FF6B6B) and teal (#14B8A6) colors that position Afterpage as uniquely warm and approachable in a category dominated by cold, technical competitors.
+**Brand Identity:** "Clarity": A teal (#14B8A6), purple (#8B5CF6), indigo (#6366F1), and pink (#EC4899) palette, drawn from the app's aurora background, that positions Afterpage as uniquely warm and approachable in a category dominated by cold, technical competitors.
 
 **Trust:** Documents are stored in your iCloud Drive and processed on your device—no third-party servers, no new accounts to create, just your existing Apple ecosystem.
 

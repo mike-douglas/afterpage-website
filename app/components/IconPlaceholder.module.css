@@ -6,8 +6,13 @@
   height: 44px;
   flex-shrink: 0;
   background: var(--bg-subtle);
-  border: 1px dashed var(--fg-faint);
   border-radius: var(--radius-sm);
+  color: var(--fg);
+}
+
+.glyph {
+  width: 22px;
+  height: 22px;
 }
 
 .dot {
@@ -19,9 +24,36 @@
 
 .inverted {
   background: var(--bg-inverted);
-  border-color: var(--border-inverted);
+  color: var(--fg-inverted);
 }
 
 .inverted .dot {
   background: var(--fg-inverted-muted);
+}
+
+.teal {
+  background: var(--teal-tint);
+  color: var(--teal);
+}
+
+.purple {
+  background: var(--purple-tint);
+  color: var(--purple);
+}
+
+.indigo {
+  background: var(--indigo-tint);
+  color: var(--indigo);
+}
+
+.pink {
+  background: var(--pink-tint);
+  color: var(--pink);
+}
+
+.teal.inverted,
+.purple.inverted,
+.indigo.inverted,
+.pink.inverted {
+  background: color-mix(in srgb, currentColor 22%, var(--bg-inverted));
 }

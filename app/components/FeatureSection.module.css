@@ -81,11 +81,19 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .reverse .grid {
+  .grid.single {
+    grid-template-columns: 1fr;
+  }
+
+  .grid.single > * {
+    max-width: 640px;
+  }
+
+  .reverse .grid:not(.single) {
     direction: rtl;
   }
 
-  .reverse .grid > * {
+  .reverse .grid:not(.single) > * {
     direction: ltr;
   }
 }

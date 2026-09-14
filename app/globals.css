@@ -13,6 +13,16 @@
   --bg-inverted: #1a1a1a;
   --border-inverted: #3a3a3c;
 
+  /* Brand accents, drawn from the aurora background */
+  --teal: #14b8a6;
+  --teal-tint: #d9f5f1;
+  --purple: #8b5cf6;
+  --purple-tint: #ede9fe;
+  --indigo: #6366f1;
+  --indigo-tint: #e0e7ff;
+  --pink: #ec4899;
+  --pink-tint: #fce7f3;
+
   --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
     system-ui, sans-serif;
 
